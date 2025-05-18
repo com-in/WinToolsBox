@@ -1,0 +1,16 @@
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #333;
+    --accent-color: #007bff;
+    --accent-hover: #0056b3;
+    --header-bg: #ffffff;
+    --nav-link-color: #333;
+    --hero-bg: #ffffff;
+    --hero-text-color: #333;
+    --section-bg: #f1f3f5;
+    --section-title-color: #222;
+    --card-bg: #fff;
+    --card-title-color: #333;
+    --footer-bg: #e9ecef;
+    --footer-text-color: #555;
+}
