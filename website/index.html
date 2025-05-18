@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <!-- CSS 文件 -->
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme-style" rel="stylesheet" href="css/themes/default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- 确保路径正确 -->
+    <title>首页 - Windows Tools Box</title>
+</head>
+<body>
+
+<!-- 粒子弹幕背景 -->
+<div id="particles-js"></div>
+
+<header>
+    <div class="container">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./about.html">功能介绍</a></li>
+                <li><a href="./download.html">下载</a></li>
+                <li><a href="./about.html">关于</a></li>
+            </ul>
+        </nav>
+        <button onclick="toggleTheme()">切换主题</button>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Windows Tools Box</h1>
+    <p>一款专为 Windows 用户打造的多功能工具集合，提升你的工作效率与系统体验。</p>
+    <a href="./features.html" class="btn">了解更多</a>
+</section>
+
+<!-- 功能展示 -->
+<section class="features-preview">
+    <div class="container">
+        <h2>核心功能亮点</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <i class="fas fa-magic fa-2x" style="color: var(--accent-color); margin-bottom: 15px;"></i>
+                <h3>快！</h3>
+                <p>快速启动，无拖延</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-shield-alt fa-2x" style="color: var(--accent-color); margin-bottom: 15px;"></i>
+                <h3>准！</h3>
+                <p>准确，快速</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-microchip fa-2x" style="color: var(--accent-color); margin-bottom: 15px;"></i>
+                <h3>狠！</h3>
+                <p>狠，没有丝毫犹豫</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Alice_Ctoy. 保留所有权利。</p>
+    </div>
+</footer>
+
+<!-- JS 脚本 -->
+<script src="js/particles.min.js"></script>
+<script src="js/theme.js"></script>
+
+<!-- 初始化粒子背景 -->
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80 },
+    "density": { "enable": true, "value_area": 800 },
+    "color": { "value": "#007bff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5, "random": false },
+    "size": { "value": 3, "random": true },
+    "line_linked": { "enable": true, "distance": 150, "color": "#007bff", "opacity": 0.4, "width": 1 },
+    "move": { "enable": true, "speed": 1, "direction": "none", "random": false }
+  },
+  "interactivity": {
+    "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" } },
+    "modes": {
+      "grab": { "distance": 200, "line_linked": { "opacity": 0.5 } },
+      "push": { "particles_nb": 4 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+<script src="js/particles.min.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/router.js"></script>
+</body>
+</html>

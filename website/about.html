@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme-style" rel="stylesheet" href="css/themes/default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- 粒子弹幕背景 -->
+<div id="particles-js"></div>
+
+<header>
+    <div class="container">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./features.html">功能介绍</a></li>
+                <li><a href="./download.html">下载</a></li>
+                <li><a href="./about.html">关于</a></li>
+            </ul>
+        </nav>
+        <button onclick="toggleTheme()">切换主题</button>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>关于我们</h1>
+    <p>我们是一支致力于开发工具软件的团队，专注于多种语言的开发~</p>
+</section>
+
+<section class="content">
+    <div class="container">
+        <h2>我们的使命</h2>
+        <p>我们希望通过 Windows Tools Box 帮助用户更轻松地管理和维护他们的计算机，无论你是普通用户还是技术爱好者，都能找到你需要的功能。</p>
+
+        <h2>团队介绍</h2>
+        <ul class="team-members">
+            <li><strong>Alice_Ctoy</strong> - 设计、开发</li>
+        </ul>
+
+        <h2>联系方式</h2>
+        <p>如需合作或技术支持，请通过以下方式联系我们：</p>
+        <ul class="contact-info">
+            <li>Email: ctoyych0@gmail.com</li>
+            <li>GitHub: <a href="https://github.com/com-in/WinToolsBox" target="_blank">WinToolsBox</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Alice_Ctoy. 保留所有权利。</p>
+    </div>
+</footer>
+
+<script src="js/particles.min.js"></script>
+<script src="js/theme.js"></script>
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80 },
+    "density": { "enable": true, "value_area": 800 },
+    "color": { "value": "#007bff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5, "random": false },
+    "size": { "value": 3, "random": true },
+    "line_linked": { "enable": true, "distance": 150, "color": "#007bff", "opacity": 0.4, "width": 1 },
+    "move": { "enable": true, "speed": 1, "direction": "none", "random": false }
+  },
+  "interactivity": {
+    "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" } },
+    "modes": {
+      "grab": { "distance": 200, "line_linked": { "opacity": 0.5 } },
+      "push": { "particles_nb": 4 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+<script src="js/particles.min.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/router.js"></script>
+</body>
+</html>
