@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>下载中心 - Windows Tools Box</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link id="theme-style" rel="stylesheet" href="css/themes/default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- 粒子弹幕背景 -->
+<div id="particles-js"></div>
+
+<header>
+    <div class="container">
+        <img src="assets/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="./features.html">功能介绍</a></li>
+                <li><a href="./download.html">下载</a></li>
+                <li><a href="./about.html">关于</a></li>
+            </ul>
+        </nav>
+        <button onclick="toggleTheme()">切换主题</button>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>立即下载 Windows Tools Box</h1>
+    <p>适用于 Windows 系统的多功能工具箱，免费下载安装。</p>
+    <p>快速启动，无拖延</p>
+    <p>狠，没有丝毫犹豫</p>
+</section>
+
+<section class="content">
+    <div class="container">
+        <h2>选择适合你的版本</h2>
+        <div class="download-options">
+            <div class="download-item">
+                <i class="fab fa-windows fa-2x" style="color: var(--accent-color); margin-bottom: 10px;"></i><h3>Windows 10/11</h3>
+                <a href="https://github.com/com-in/WinToolsBox/releases/latest" class="btn">下载</a>
+            </div>
+            <div class="download-item">
+                <i class="fab fa-windows fa-2x" style="color: var(--accent-color); margin-bottom: 10px;"></i><h3>Windows 7/Vista</h3>
+                <a href="https://github.com/com-in/WinToolsBox/releases/latest" class="btn">下载</a>
+            </div>
+            <div class="download-item">
+                <i class="fab fa-windows fa-2x" style="color: var(--accent-color); margin-bottom: 10px;"></i><h3>Windows XP</h3>
+                <a href="https://github.com/com-in/WinToolsBox/releases/latest" class="btn">下载</a>
+            </div>
+            <div class="download-item">
+                <i class="fab fa-windows fa-2x" style="color: var(--accent-color); margin-bottom: 10px;"></i><h3>Windows 2000/4.0/3.5/3.1</h3>
+                <a href="https://github.com/com-in/WinToolsBox/releases/latest" class="btn">下载</a>
+            </div>
+            <div class="download-item">
+                <i class="fab fa-windows fa-2x" style="color: var(--accent-color); margin-bottom: 10px;"></i><h3>Windows ME/98SE/98/95</h3>
+                <a href="https://github.com/com-in/WinToolsBox/releases/latest" class="btn">下载</a>
+            </div>
+            <div class="download-item">
+                <i class="fab fa-windows fa-2x" style="color: var(--accent-color); margin-bottom: 10px;"></i><h3>Windows 3.1/3.0/2.0/1.0</h3>
+                <a href="https://github.com/com-in/WinToolsBox/releases/latest" class="btn">下载</a>
+            </div>
+
+
+        <h2>使用说明</h2>
+        <ol class="installation-steps">
+            <li>点击对应版本的“下载”按钮</li>
+            <li>下载exe文件</li>
+            <li>打开exe文件即可开始使用</li>
+        </ol>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Alice_Ctoy. 保留所有权利。</p>
+    </div>
+</footer>
+
+<script src="js/particles.min.js"></script>
+<script src="js/theme.js"></script>
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80 },
+    "density": { "enable": true, "value_area": 800 },
+    "color": { "value": "#007bff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5, "random": false },
+    "size": { "value": 3, "random": true },
+    "line_linked": { "enable": true, "distance": 150, "color": "#007bff", "opacity": 0.4, "width": 1 },
+    "move": { "enable": true, "speed": 1, "direction": "none", "random": false }
+  },
+  "interactivity": {
+    "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" } },
+    "modes": {
+      "grab": { "distance": 200, "line_linked": { "opacity": 0.5 } },
+      "push": { "particles_nb": 4 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+<script src="js/particles.min.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/router.js"></script>
+</body>
+</html>
