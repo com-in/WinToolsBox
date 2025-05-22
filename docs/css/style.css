@@ -322,7 +322,7 @@ header {
     box-shadow: 0 6px 14px rgba(0, 123, 255, 0.4);
 }
 
-download-item {
+.download-item {
     background-color: var(--accent-hover);
     border-radius: 10px;
     margin: 3px;
