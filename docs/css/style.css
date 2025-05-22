@@ -321,3 +321,16 @@ header {
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(0, 123, 255, 0.4);
 }
+
+download-item {
+    background-color: var(--accent-hover);
+    border-radius: 10px;
+    margin: 3px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
