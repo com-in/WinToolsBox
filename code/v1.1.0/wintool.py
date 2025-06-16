@@ -1,5 +1,5 @@
 import os
-# from mcstatus import JavaServer
+from mcstatus import JavaServer
 
 # 严禁格式化本代码
 # Do not format this code
@@ -45,7 +45,7 @@ COLOR_CODES = {
 
 # 定义主界面
 def main_page():
-    print("========Windows Tools Box Version 1.0.0=============")
+    print("========Windows Tools Box Version 1.1.0=============")
     print("        [1]磁盘修复            [2]文件删除             ")
     print("        [3]格式化              [4]网络连通性测试        ")
     print("        [5]任务管理器          [6]Minecraft服务器查询   ")
